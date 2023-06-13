@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "bin": {
-        "webkit-cli init": "./index.js"
+        "webkit-cli": "./index.js"
     },
     "scripts": {
         "test": "test"
