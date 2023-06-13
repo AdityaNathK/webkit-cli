@@ -20,7 +20,7 @@ To use `webkit-cli`, follow these steps:
 - Run the following command to start webkit-cli:
 
 ```bash
-webkit-cli init
+webkit-cli
 ```
 
 - You will be prompted to select a front-end development kit from the available options.
@@ -35,7 +35,7 @@ Useful commands
   To instantiate a new project
   
   ```bash
-  webkit-cli init
+  webkit-cli
   ```
 
 ## Contributing Guide Lines
