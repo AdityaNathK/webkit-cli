@@ -1,6 +1,6 @@
 {
     "name": "webkit-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "CLI tool to generate front-end web development templates",
     "main": "index.js",
     "type": "module",
