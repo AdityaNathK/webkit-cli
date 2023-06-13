@@ -1,27 +1,34 @@
 {
-  "name": "webkit-cli",
-  "version": "1.0.0",
-  "description": "CLI tool to generate front-end web development templates",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AdityaNathK/webkit-cli.git"
-  },
-  "keywords": [
-    "web",
-    "webkit",
-    "webkit-cli",
-    "template",
-    "forntend",
-    "frontend-kit"
-  ],
-  "author": "AdityaNathK",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AdityaNathK/webkit-cli/issues"
-  },
-  "homepage": "https://github.com/AdityaNathK/webkit-cli#readme"
+    "name": "webkit-cli",
+    "version": "1.0.0",
+    "description": "CLI tool to generate front-end web development templates",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "webkit-cli init": "./index.js"
+    },
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AdityaNathK/webkit-cli.git"
+    },
+    "keywords": [
+        "web",
+        "webkit",
+        "webkit-cli",
+        "template",
+        "forntend",
+        "frontend-kit"
+    ],
+    "author": "AdityaNathK",
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^9.2.7"
+    },
+    "bugs": {
+        "url": "https://github.com/AdityaNathK/webkit-cli/issues"
+    },
+    "homepage": "https://github.com/AdityaNathK/webkit-cli#readme"
 }
