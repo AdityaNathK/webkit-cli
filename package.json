@@ -1,0 +1,27 @@
+{
+  "name": "webkit-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to generate front-end web development templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaNathK/webkit-cli.git"
+  },
+  "keywords": [
+    "web",
+    "webkit",
+    "webkit-cli",
+    "template",
+    "forntend",
+    "frontend-kit"
+  ],
+  "author": "AdityaNathK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdityaNathK/webkit-cli/issues"
+  },
+  "homepage": "https://github.com/AdityaNathK/webkit-cli#readme"
+}
