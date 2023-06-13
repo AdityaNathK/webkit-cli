@@ -35,7 +35,7 @@ Useful commands
   To instantiate a new project
   
   ```bash
-  webkit init
+  webkit-cli init
   ```
 
 ## Contributing Guide Lines
