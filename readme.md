@@ -1,11 +1,11 @@
 
 # webkit-cli
 
-`webkit-cli` is a CLI tool to generate front-end development kits.
+[`webkit-cli`](https://www.npmjs.com/package/webkit-cli) is a CLI tool to generate front-end development kits.
 
 ## Installation
 
-You can install `webkit-cli` globally using npm:
+You can install `webkit-cli` globally using [npm](https://www.npmjs.com/package/webkit-cli)
 
 ```bash
 npm install -g webkit-cli
