@@ -1,0 +1,7 @@
+# App dependencies
+node_modules
+
+# Mac OS specific files
+**/.DS_Store
+
+package-lock.json
