@@ -1,12 +1,11 @@
 {
     "name": "webkit-cli",
-    "version": "1.0.2",
+    "packageManager": "yarn@3.6.0",
+    "version": "1.0.4",
     "description": "CLI tool to generate front-end web development templates",
     "main": "index.js",
     "type": "module",
-    "bin": {
-        "webkit-cli": "./index.js"
-    },
+    "bin": "./index.js",
     "scripts": {
         "test": "test"
     },
