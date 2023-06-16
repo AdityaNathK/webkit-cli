@@ -11,6 +11,12 @@ You can install `webkit-cli` globally using [npm](https://www.npmjs.com/package/
 npm install -g webkit-cli
 ```
 
+if you prefer using `yarn`
+
+```bash
+yarn add webkit-cli
+```
+
 ## Usage
 
 To use `webkit-cli`, follow these steps:
@@ -19,23 +25,39 @@ To use `webkit-cli`, follow these steps:
 - Navigate to the project directory where you want to create your front-end project.
 - Run the following command to start webkit-cli:
 
+for `npm` installations
+
 ```bash
 webkit-cli
+```
+
+for `yarn` installations
+
+```bash
+yarn webkit-cli
 ```
 
 - You will be prompted to select a front-end development kit from the available options.
 - Choose the desired front-end development kit by selecting the corresponding option.
 - Next, you will be asked to enter the project directory name. Press Enter to use the default name or provide a custom name.
-- `webkit-cli` will create the project directory and copy the template files into it.
-- Once the process is complete, you can start working on your front-end project using the chosen development kit.
+- `webkit-cli` will create the project directory and copy relavant files into it.
+- Now you can start working on your dream project with a head start from this frontend development kit.
 
 ## Documentation
 
 Useful commands
-  To instantiate a new project
+  To instantiate a new webkit
   
+  `npm`
+
   ```bash
   webkit-cli
+  ```
+
+  `yarn`
+
+  ```bash
+  yarn webkit-cli
   ```
 
 ## Contributing Guide Lines
