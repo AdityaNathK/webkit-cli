@@ -47,7 +47,7 @@ yarn webkit-cli
 
 Useful commands
   To instantiate a new webkit
-  
+
   `npm`
 
   ```bash

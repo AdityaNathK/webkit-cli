@@ -40,6 +40,7 @@ nav {
     align-items: center;
     padding: 1rem;
 }
+
 h1 {
     color: var(--primary-color);
     cursor: pointer;
@@ -154,9 +155,11 @@ footer {
     padding: 1em;
     color: var(--primary-color);
 }
+
 footer p {
     font-size: 11px;
 }
+
 p a {
     padding: 5px;
     border-radius: 5px;
@@ -164,6 +167,7 @@ p a {
     color: var(--light-color);
     background-color: var(--accent-color);
 }
+
 p a:hover {
     padding: 5px;
     border-radius: 5px;
