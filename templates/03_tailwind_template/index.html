@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="m-0 p-0 font-['Open Sans']">
+
+<head>
+    <title>TailwindCSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primaryColor: "#3b3b3b",
+                        accentColor: "#d55380",
+                        lightColor: "#fff",
+                        lighterColor: "#f7f7ff",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="flex flex-col bg-lightColor w-full h-full">
+    <header class="bg-lighterColor">
+        <nav class="flex flex-row justify-between items-center p-4">
+            <a href="#" class="">KRONOS <b>APPS</b></a>
+            <ul class="flex flex-row text-center items-center gap-[40pt]">
+                <li class="list-none text-xs"><a href="#">Home</a></li>
+                <li class="list-none text-xs"><a href="#">About Us</a></li>
+                <li
+                    class="list-none text-xs br-5 rounded bg-accentColor p-1.5 transition-[0.3s] hover:text-lightColor hover:bg-[#3b3b3b]">
+                    <a class="text-lighterColor hover:text-lightColor" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="flex flex-col items-center justify-center">
+        <main class="flex items-center justify-between gap-24 px-6 h-screen">
+            <div class="info">
+                <h2 class="text-[#5d5d5d] text-3xl m-[0 0 10px]">What&apos;s <span class="text-[#e6e3e3] rounded-sm"
+                        id="inspired">Next</span> </h2>
+                <p class="m-0 leading-normal text-base color-[#4c4c4c]">
+                    Great work is the outcome of great
+                    <span class="py-2 rounded-sm">efforts</span> and great
+                    <span class="py-2 rounded-sm">attitudes</span> . Commitment and
+                    love towards work can help you enhance your performance
+                    levels
+                </p>
+                <button type="button" class="border-[0] rounded-[20px] py-1 px-3 mt-[30px] cursor-pointer  text-lightColor bg-accentColor transition-[0.3s] 
+                    hover:bg-[#3b3b3b]" onclick="onClick()">Get
+                    Inspired</button>
+            </div>
+            <div class="image">
+                <img alt="cloud-hosting" class="max-w-full" loading="lazy"
+                    src="https://i.postimg.cc/h4CZQwGb/cloud-hosting.png">
+            </div>
+        </main>
+    </section>
+    <footer class="flex justify-between text-center p-[1em] color-[#3b3b3b]">
+        <p class="text-sm">Copyright &copy; 2023-KronosApps</p>
+        <p class="text-sm">
+            Contact Me :
+            <a class="p-1.5 rounded text-lightColor bg-accentColor hover:p-2 hover:rounded hover:bg-[#c6878f]"
+                href=" mailto: apps.kronos@gmail.com">Send
+                Email</a>
+        </p>
+    </footer>
+</body>
+
+</html>
