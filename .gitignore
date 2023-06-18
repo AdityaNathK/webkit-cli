@@ -9,8 +9,8 @@ package-lock.json
 dist/*
 !dist/templates
 
+.pnp.*
 .yarn/*
-!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
