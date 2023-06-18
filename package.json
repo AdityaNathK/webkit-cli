@@ -3,7 +3,7 @@
     "packageManager": "yarn@3.6.0",
     "version": "1.0.4",
     "description": "CLI tool to generate front-end web development templates",
-    "main": "dist/index.js",
+    "main": "index.cjs",
     "type": "module",
     "bin": "dist/index.js",
     "scripts": {
