@@ -1,5 +1,5 @@
 /* 
-    TITLE: Webkit-CLI (webkit-cli) - Blank
+    TITLE: Webkit-CLI (webkit-cli) - Blank Templeate
     TEMPLATE INFO: Blank Template - Empty html,css,js files
     AUTHOR: AdityaNathK
     ORGANISATION: KronosApps
@@ -8,7 +8,85 @@
 */
 
 * {
+    --primary-color: #eef0f2;
+    --primary-color-alt: #dee4e7;
+    --secondary-color: #3a445d;
+    --accent-color: #eec643;
+    --text-color: #141414;
+    --accent-color-alt: #0d21a1;
+
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+main article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+#one {
+    background-color: var(--primary-color);
+}
+
+#two {
+    background-color: var(--primary-color-alt);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--accent-color);
+    padding: 6px;
+    border: none;
+    box-shadow: var(--accent-color) 5px 10px 100px;
+    border-radius: 25px;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+button:hover a {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+article {
+    color: var(--text-color);
 }

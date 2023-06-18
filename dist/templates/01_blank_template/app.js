@@ -1,5 +1,5 @@
 /* 
-    TITLE: Webkit-CLI (webkit-cli) - Blank
+    TITLE: Webkit-CLI (webkit-cli) - Blank Templeate
     TEMPLATE INFO: Blank Template - Empty html,css,js files
     AUTHOR: AdityaNathK
     ORGANISATION: KronosApps
@@ -8,4 +8,4 @@
 */
 
 /* JavaScript simple alert function */
-alert("Hello, World!");
+// alert("Hello, World!");
