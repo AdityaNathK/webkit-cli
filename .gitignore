@@ -6,8 +6,6 @@ node_modules
 
 package-lock.json
 
-dist/*
-!dist/templates
 
 .pnp.*
 .yarn/*
