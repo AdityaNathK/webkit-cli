@@ -1,13 +1,14 @@
 {
     "name": "webkit-cli",
     "packageManager": "yarn@3.6.0",
-    "version": "1.0.4",
+    "version": "2.0.0",
     "description": "CLI tool to generate front-end web development templates",
-    "main": "index.js",
+    "main": "index.cjs",
     "type": "module",
-    "bin": "./index.js",
+    "bin": "dist/index.js",
     "scripts": {
-        "test": "test"
+        "test": "test",
+        "build": "tsc"
     },
     "repository": {
         "type": "git",
@@ -29,5 +30,9 @@
     "bugs": {
         "url": "https://github.com/AdityaNathK/webkit-cli/issues"
     },
-    "homepage": "https://github.com/AdityaNathK/webkit-cli#readme"
+    "homepage": "https://github.com/AdityaNathK/webkit-cli#readme",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.3",
+        "typescript": "^5.1.3"
+    }
 }

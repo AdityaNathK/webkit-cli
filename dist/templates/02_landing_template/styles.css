@@ -1,0 +1,241 @@
+/* 
+    TITLE: Webkit-CLI (webkit-cli) - LandingPage Template
+    TEMPLATE INFO: LandingPage Template - LandingPage html,css,js files
+    AUTHOR: AdityaNathK
+    ORGANISATION: KronosApps
+    CONTACT: apps.kronos@gmail.com
+    LICENSE: MIT 
+*/
+
+/* Whole document styles  */
+* {
+    /* CSS Varibles example */
+    --accent-color: #d55380;
+    --light-color: #fff;
+    --primary-color: #eef0f2;
+    --primary-color-alt: #dee4e7;
+    --secondary-color: #3a445d;
+    --text-color: #141414;
+    --accent-color-alt: #0d21a1;
+
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Body content styles  */
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-color);
+}
+
+/* Header section styles */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7ff;
+    color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav button {
+    margin-right: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 40pt;
+}
+
+ul li {
+    color: var(--primary-color);
+    list-style: none;
+    font-size: 0.7rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+li:hover a {
+    color: var(--accent-color);
+}
+
+li:last-child:hover {
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+li:last-child:hover a {
+    color: var(--light-color);
+}
+
+/* Main section styles */
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0 20px;
+}
+
+.info h2 {
+    color: #5d5d5d;
+    font-size: 35px;
+    margin: 0 0 10px;
+}
+
+.info h2 span {
+    color: #e6e3e3;
+}
+
+.info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #4c4c4c;
+}
+
+.info span {
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: var(--light-color);
+    background-color: var(--accent-color);
+    transition: 0.3s;
+}
+
+.info button:hover {
+    background-color: var(--primary-color);
+}
+
+.image img {
+    max-width: 100%;
+}
+
+/* Footer section styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+    color: var(--primary-color);
+}
+footer p {
+    font-size: 11px;
+}
+p a {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--light-color);
+    background-color: var(--accent-color);
+}
+p a:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #c6878f;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+main {
+    text-align: center;
+}
+
+main article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+#one {
+    background-color: var(--primary-color);
+}
+
+#two {
+    background-color: var(--primary-color-alt);
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--accent-color);
+    padding: 6px;
+    border: none;
+    box-shadow: var(--accent-color) 5px 10px 100px;
+    border-radius: 25px;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+button:hover a {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+article {
+    color: var(--text-color);
+}
