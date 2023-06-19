@@ -1,5 +1,5 @@
 # App dependencies
-node_modules
+node_modules/
 
 # Mac OS specific files
 **/.DS_Store
