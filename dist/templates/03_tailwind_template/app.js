@@ -1,6 +1,6 @@
-/* 
-    TITLE: Webkit-CLI (webkit-cli) - LandingPage Template
-    TEMPLATE INFO: LandingPage Template - LandingPage html,css,js
+/*
+    TITLE: Webkit-CLI (webkit-cli) - Contentful
+    TEMPLATE INFO: Contentful Template - Contentful html,css,js files
     AUTHOR: AdityaNathK
     ORGANISATION: KronosApps
     CONTACT: apps.kronos@gmail.com

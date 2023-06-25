@@ -21,6 +21,10 @@ const templateChoicesAlt = [
         name: "Contentful Template - Contentful html,css,js files",
         value: templateChoices[1],
     },
+    {
+        name: "Contentful Template - Contentful html (tailwindcss) file with js",
+        value: templateChoices[2],
+    }
 ];
 // Define the prompts which are displayed in terminal, for the user
 const prompts = [

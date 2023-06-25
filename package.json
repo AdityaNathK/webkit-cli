@@ -25,6 +25,11 @@
     "author": "AdityaNathK",
     "license": "MIT",
     "dependencies": {
+        "del": "^7.0.0",
+        "gulp": "^4.0.2",
+        "gulp-beautify": "^3.0.0",
+        "gulp-filter": "^7.0.0",
+        "gulp-nunjucks-render": "^2.2.3",
         "inquirer": "^9.2.7"
     },
     "bugs": {

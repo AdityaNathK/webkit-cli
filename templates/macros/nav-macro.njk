@@ -1,0 +1,11 @@
+{% macro type(templateType='blank') %} <!-- defaults to blank -->
+  {% if templateType == 'blank' %}
+    <h1 id="header-1">Blank Template</h1>
+  {% elseif templateType == 'contentful' %}
+    <a href="#" class="logo">Landing <b>Page</b></a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+  {% endif %}
+{% endmacro %}
